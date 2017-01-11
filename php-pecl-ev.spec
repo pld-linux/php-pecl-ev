@@ -9,7 +9,7 @@
 Summary:	Provides interface to libev library
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.4
-Release:	0.1
+Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	https://pecl.php.net/get/%{modname}-%{version}.tgz
