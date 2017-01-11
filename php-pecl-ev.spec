@@ -16,7 +16,7 @@ Source0:	https://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	6670ad30d98a9b5a1bd5410285099689
 URL:		https://pecl.php.net/package/ev/
 %{?with_tests:BuildRequires:    %{php_name}-cli}
-BuildRequires:	%{php_name}-devel
+BuildRequires:	%{php_name}-devel >= 4:5.4.0
 BuildRequires:	rpmbuild(macros) >= 1.666
 %if %{with tests}
 BuildRequires:	%{php_name}-cli
